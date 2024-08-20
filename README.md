@@ -12,7 +12,7 @@ to the particular game, is located at `GAMENAME\GAMENAME_Data\Managed` where `GA
 installed. In our case that is `GameHackingGG\GameHackingGG_Data\Managed`.  Inside this is `Assembly-CSharp.dll`. We will 
 drag that file into `dnSpyEx`, and see what's in it! The first thing we see, is, an anticheat class.
 <br/>
-<img alt="Level 4 DNSpy" src="L0 dnSpy anticheat.png" title="DNSpy IL COde" />
+<img alt="Level 4 DNSpy" src="img/L0 dnSpy anticheat.png" title="DNSpy IL COde" />
 <br/>
 We can actually stub most of this, although I think, by looking at the [Unity documentation](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
 we can see that `MonoBehaviour` classes have a `Start` and `Update` function. I assume those are really the only two functions
@@ -23,7 +23,7 @@ stub...` menu option. I just had to edit the `GetHashOfCode` function to return 
 All you have to do is right click the code you want to edit, click `Edit IL Instructions...` and change it to ldstr, and 
 it automatically loads an empty string for return.
 <br/>
-<img alt="Level 4 DNSpy" src="L0 dnSpy anticheat stubbed.png" title="DNSpy IL COde" />
+<img alt="Level 4 DNSpy" src="img/L0 dnSpy anticheat stubbed.png" title="DNSpy IL COde" />
 <br/>
 
 You must select the module and then go to `File > Save Module` for your changes to take place.
@@ -41,6 +41,6 @@ We also will want to go into our settings, and make hotkeys for the `next scan` 
 F1, `Increase Value` to F2, `Changed Value` to F3 and `Unchanged Value` to F4. These will allow you to quickly scan the game
 as you are in it, via hotkey.
 <br/>
-<img alt="CE Settings" src="L0 CE Settings.png" title="CE Settings" />
+<img alt="CE Settings" src="img/L0 CE Settings.png" title="CE Settings" />
 <br/>
 More about CE will be explained as these levels progress.
