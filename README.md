@@ -1,4 +1,25 @@
 # GameHacking.gg
+There is a preamble, explaining the tools and installation of the tools, in this README. If you are already familiar with
+the tools, you may also want to do a cursory check of the game code, in dnSpy, as well. I disable the anti-cheat, here, before
+ever running the game.
+
+Thank you to the crew at [gamehacking.gg](https://gamehacking.gg/). It was great to meet you guys at defcon! This is a great
+introductory challenge to game reversing. When reversing modern games, I generally use Cheat Engine and some kind of decompiler,
+like [Ghidra](https://github.com/NationalSecurityAgency/ghidra). C# assemblies are much easier to understand, than a compiled
+binary, though, so this is a good way to get used to using these types of tools in tandem, while not having to get too far 
+into the weeds with machine code.  
+
+# Levels 
+Guide for each level.
+### [Level 1](L1.md)
+### [Level 2](L2.md)
+### [Level 3](L3.md)
+### [Level 4](L4.md)
+### [Level 5](L5.md)
+### [Level 6](L6.md)
+### [Level 7](L7.md)
+### [Level 8](L8.md)
+### [Level 9](L9.md)
 
 ## Unity games
 Today, we are going to look at a Unity game. We are going to use dnSpyEx for reading and editing the source code, and we are 
