@@ -2,8 +2,8 @@
 
 ## Unity games
 Today, we are going to look at a Unity game. We are going to use dnSpyEx for reading and editing the source code, and we are 
-going to use Cheat Engine as our debugger. You can download the game from the release section of this GitHub repo (It hasn't
-been released, officially, yet).  
+going to use Cheat Engine as our debugger. The game has not been release, yet, and was only available at defcon, but will 
+be released, possibly with additions, eventually. You can check back here, or https://gamehacking.gg/ for updates, on that.
 
 ### [dnSpyEx](https://github.com/dnSpyEx/dnSpy/releases)
 Above is a link to the version of `dnSpyEx` that I downloaded and installed. After installing it, you will need to install 
